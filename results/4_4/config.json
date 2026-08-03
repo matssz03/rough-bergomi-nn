@@ -1,0 +1,17 @@
+{
+  "data_dir": "data",
+  "model_dir": "results/4_2",
+  "output_dir": "results/4_4",
+  "n_episodes_fast": 500,
+  "n_episodes_rb": 100,
+  "include_rb": true,
+  "bid_ask_bp": 50.0,
+  "edge_bp": 50.0,
+  "days_per_year": 252,
+  "steps_per_day": 2,
+  "trade_cost_bp": 0.0,
+  "hedge_cost_bp": 0.0,
+  "seed": 20260719,
+  "device": "cpu",
+  "verbose": true
+}

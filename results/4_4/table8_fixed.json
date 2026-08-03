@@ -1,0 +1,74 @@
+{
+  "Black-Scholes": {
+    "n_episodes": 500,
+    "mean_pnl": -0.13901199400424957,
+    "median_pnl": 0.04826519265770912,
+    "std_pnl": 3.554556131362915,
+    "sharpe_annualised": -0.027653614120584737,
+    "max_drawdown": 104.01964569091797,
+    "hit_rate": 0.53
+  },
+  "Bates": {
+    "n_episodes": 500,
+    "mean_pnl": 0.03237156942486763,
+    "median_pnl": 0.055095262825489044,
+    "std_pnl": 0.6885803937911987,
+    "sharpe_annualised": 0.03324253270115049,
+    "max_drawdown": 13.08647632598877,
+    "hit_rate": 0.636
+  },
+  "Neural network": {
+    "n_episodes": 500,
+    "mean_pnl": 0.06707961112260818,
+    "median_pnl": 0.041793208569288254,
+    "std_pnl": 0.5258234739303589,
+    "sharpe_annualised": 0.09020602969588014,
+    "max_drawdown": 5.948662281036377,
+    "hit_rate": 0.62
+  },
+  "rough Bergomi": {
+    "n_episodes": 100,
+    "mean_pnl": 0.03892337903380394,
+    "median_pnl": 0.033081550151109695,
+    "std_pnl": 0.6767943501472473,
+    "sharpe_annualised": 0.040666688862737985,
+    "max_drawdown": 4.205918312072754,
+    "hit_rate": 0.54
+  },
+  "surface_Black-Scholes": {
+    "n_episodes": 500,
+    "mean_pnl": -0.0015796817606315017,
+    "median_pnl": 0.0,
+    "std_pnl": 0.09172438085079193,
+    "sharpe_annualised": -0.012177827472896979,
+    "max_drawdown": 104.8641357421875,
+    "hit_rate": 0.4767954545454545
+  },
+  "surface_Bates": {
+    "n_episodes": 500,
+    "mean_pnl": 0.0003678587672766298,
+    "median_pnl": 0.0,
+    "std_pnl": 0.07924100756645203,
+    "sharpe_annualised": 0.0032825860857725025,
+    "max_drawdown": 25.449167251586914,
+    "hit_rate": 0.30179545454545453
+  },
+  "surface_Neural network": {
+    "n_episodes": 500,
+    "mean_pnl": 0.0007622682605870068,
+    "median_pnl": 0.0,
+    "std_pnl": 0.06616998463869095,
+    "sharpe_annualised": 0.008145763658363909,
+    "max_drawdown": 9.502433776855469,
+    "hit_rate": 0.2288181818181818
+  },
+  "surface_rough Bergomi": {
+    "n_episodes": 100,
+    "mean_pnl": 0.0004423110804054886,
+    "median_pnl": 0.0,
+    "std_pnl": 0.03990698233246803,
+    "sharpe_annualised": 0.007837254186323405,
+    "max_drawdown": 4.896467208862305,
+    "hit_rate": 0.23113636363636364
+  }
+}

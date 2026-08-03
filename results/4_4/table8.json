@@ -1,0 +1,54 @@
+{
+  "Black-Scholes": {
+    "n_episodes": 500,
+    "mean_pnl": -0.13901199400424957,
+    "median_pnl": 0.04826519265770912,
+    "std_pnl": 3.554556131362915,
+    "sharpe_annualised": -0.027764008228669812,
+    "max_drawdown": 104.01964569091797,
+    "hit_rate": 0.53,
+    "mean_calibration_time_s": 5.2123545174254104e-05,
+    "mean_n_trades": 65.676,
+    "mean_option_pnl": -0.5330067276954651,
+    "mean_hedge_pnl": 0.3939947485923767
+  },
+  "Bates": {
+    "n_episodes": 500,
+    "mean_pnl": 0.03237156942486763,
+    "median_pnl": 0.055095262825489044,
+    "std_pnl": 0.6885803937911987,
+    "sharpe_annualised": 0.03337523795016533,
+    "max_drawdown": 13.08647632598877,
+    "hit_rate": 0.636,
+    "mean_calibration_time_s": 3.0108985900878906,
+    "mean_n_trades": 44.622,
+    "mean_option_pnl": 0.035030707716941833,
+    "mean_hedge_pnl": -0.002659138757735491
+  },
+  "Neural network": {
+    "n_episodes": 500,
+    "mean_pnl": 0.06707961112260818,
+    "median_pnl": 0.041793208569288254,
+    "std_pnl": 0.5258234739303589,
+    "sharpe_annualised": 0.09056613503866641,
+    "max_drawdown": 5.948662281036377,
+    "hit_rate": 0.62,
+    "mean_calibration_time_s": 0.06876042485237122,
+    "mean_n_trades": 35.116,
+    "mean_option_pnl": 0.00585087388753891,
+    "mean_hedge_pnl": 0.06122874468564987
+  },
+  "rough Bergomi": {
+    "n_episodes": 100,
+    "mean_pnl": 0.03892337903380394,
+    "median_pnl": 0.033081550151109695,
+    "std_pnl": 0.6767943501472473,
+    "sharpe_annualised": 0.0912964900673407,
+    "max_drawdown": 4.205918312072754,
+    "hit_rate": 0.54,
+    "mean_calibration_time_s": 272.2080383300781,
+    "mean_n_trades": 38.82,
+    "mean_option_pnl": 0.014141730964183807,
+    "mean_hedge_pnl": 0.02478162944316864
+  }
+}
